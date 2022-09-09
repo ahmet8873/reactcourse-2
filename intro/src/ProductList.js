@@ -14,6 +14,7 @@ export default class ProductList extends Component {
             <tr>
               <th>#</th>
               <th>Product Name</th>
+              <th>Category Id</th>
               <th>Unit Price</th>
               <th>Quantity Per Unit</th>
               <th>Units In Stock</th>
@@ -25,6 +26,7 @@ export default class ProductList extends Component {
               <tr key={product.id}>
                 <th scope="row">{product.id}</th>
                 <td>{product.productName}</td>
+                <td>{product.categoryId}</td>
                 <td>{product.unitPrice}</td>
                 <td>{product.quantityPerUnit}</td>
                 <td>{product.unitsInStock}</td>
